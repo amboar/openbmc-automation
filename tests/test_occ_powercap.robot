@@ -130,6 +130,7 @@ Get Chassis URI
 
 Host PowerOn
     [Documentation]     Keyword to poweron the host and wait till boot up
+    [Tags] host-power
     ${chassis_uri}=     Get Chassis URI
     Should Not Be Empty     ${chassis_uri}      msg=Failed to get the chassis URI in the openbmc machine
     ${data}=    create dictionary   data=@{EMPTY}
