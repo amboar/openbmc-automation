@@ -72,7 +72,7 @@ delete the log
     should be equal as strings      ${resp.status_code}     ${HTTP_NOT_FOUND}
 
 Intermixed delete
-    [Documentation]     This testcase is for excersicing caching impleted,
+    [Documentation]     This testcase exercises the cache implementation.
     ...                 Steps:
     ...                     write three logs
     ...                     delete middle log
